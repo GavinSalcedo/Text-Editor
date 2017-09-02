@@ -20,6 +20,7 @@ namespace TextEditor
         private void Form1_Load(object sender, EventArgs e)
         {
             textBox1.Dock = DockStyle.Fill;
+            textBox1.ScrollBars = ScrollBars.Both;
         }
 
         private void btn_Close_Click(object sender, EventArgs e)
@@ -31,5 +32,7 @@ namespace TextEditor
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        
     }
 }
